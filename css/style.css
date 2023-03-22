@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    height: 100vh;
+    background-image: url(../imagens/background-index.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    height: 100vh;
+}
+
+#containerMeses {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+#containerMeses > div {
+    margin: auto;
+    /* box-shadow: 0 0 0 0.1em rgba(0, 0, 0, 0.623); */
+    
+}
+
+
+#janeiro {
+    background-color: white;
+}
+#fevereiro {
+    background-color: rgba(151, 29, 151, 0.822);
+}
+#março {
+    background-color: rgb(173, 51, 173);
+}
+#abril {
+    background-color: rgb(99, 146, 247);
+}
+#maio {
+    background-color: rgb(247, 247, 102);
+}
+#junho {
+    background-color: rgb(248, 90, 90);
+}
+#julho {
+    background-color: rgb(247, 247, 102);
+}
+#agosto {
+    background-color: rgb(173, 51, 173);
+}
+#setembro {
+    background-color: rgb(247, 247, 102);
+}
+#outubro {
+    background-color: rgb(248, 134, 168);
+}
+#novembro {
+    background-color: rgb(99, 146, 247);
+}
+#dezembro {
+    background-color: rgb(255, 166, 0);
+}
+
+.meses {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+}
+
+.atualização {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(173, 51, 173);
+    border-radius: 0px 0px 5px 5px;
+    border-top: 1px solid black;
+}
+
+#saibaMais {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.589);
+    margin: auto;
+    margin-top: 220px;
+    text-align: center;
+    background-color: rgba(235, 182, 83, 0.877);
+    font-size: 1.5em;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    border: 1px solid orange;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 3em;
+    padding-top: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.420);
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
