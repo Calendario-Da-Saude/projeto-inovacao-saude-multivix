@@ -43,7 +43,8 @@ main {
 
 video {
     display: block;
-    width: 300px;
+    margin: auto;
+    width: 310px;
     padding: 50px;
 }
 
