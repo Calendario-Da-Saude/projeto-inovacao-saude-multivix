@@ -17,7 +17,6 @@ body {
 }
 
 main {
-    height: 100vh;
     padding: 40px;
 }
 
@@ -93,13 +92,12 @@ main {
     height: 100%;
 }
 
-#video {
-    margin-top: 40px;
-}
-
-div#video > iframe {
+video {
     display: block;
     margin: auto;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #tabela {
