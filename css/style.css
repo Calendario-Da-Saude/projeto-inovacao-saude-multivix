@@ -36,6 +36,7 @@ main {
 }
 
 
+
 #janeiro {
     background-color: white;
 }
@@ -81,7 +82,6 @@ main {
     text-align: center;
     border-radius: 10px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
-    box-shadow: 0 0 0 0.1em rgb(235, 235, 235);
 }
 
 .atualização {
@@ -105,6 +105,13 @@ main {
     border-radius: 10px;
     width: 300px;
     border: 1px solid orange;
+    transition: .4s;
+}
+
+#saibaMais:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgb(218, 161, 57);
 }
 
 a {
