@@ -44,12 +44,12 @@ video {
     display: block;
     margin: auto;
     width: 310px;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 source {
     display: block;
-    margin: auto;
 }
 
 #legenda > h1 {
