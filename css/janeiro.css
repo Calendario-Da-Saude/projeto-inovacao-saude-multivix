@@ -41,22 +41,13 @@ main {
     padding: 5px;
 }
 
-/* #legenda {
-    font-family: 'Ubuntu', sans-serif;
-    padding: 20px;
-    margin: auto;
-    background-color: transparent;
-    border-radius: 10px;
-    color: rgba(255, 255, 255, 0.808);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.340);
-    margin-bottom: 40px;
-} */
-
-#video {
-    margin-top: 40px;
+video {
+    display: block;
+    width: 300px;
+    padding: 50px;
 }
 
-div#video > iframe {
+source {
     display: block;
     margin: auto;
 }
