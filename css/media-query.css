@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+    body {
+        background-image: none;
+        background-color: rgb(54, 54, 54);
+    }
+    main {
+        background-image: url(../imagens/background-janeiro.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 50vw;
+        margin: auto;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    }
+    .legenda p {
+        font-size: 1.1em;
+        text-align: justify;
+    }
+    .legendaDias p {
+        font-size: 1.1em;
+    }
+}
+
+.legenda > p  {
+    text-align: justify;
+}
