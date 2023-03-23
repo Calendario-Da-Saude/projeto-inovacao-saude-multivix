@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
     body {
         background-image: none;
-        background-color: rgb(54, 54, 54);
+        background-color: gray;
     }
     main {
         background-image: url(../imagens/background-janeiro.jpeg);
@@ -18,6 +18,9 @@
     }
     .legendaDias p {
         font-size: 1.1em;
+    }
+    video {
+        max-width: 500px;
     }
 }
 
