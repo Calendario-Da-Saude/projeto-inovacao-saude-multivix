@@ -11,9 +11,6 @@ body,html {
 
 body {
     background-image: linear-gradient(to right, #F3B2B0, #aae0d8);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     /* background-color: rgb(236, 236, 236); */
 }
 
