@@ -10,10 +10,11 @@ body,html {
 }
 
 body {
-    background-image: url(../imagens/background-janeiro.jpeg);
+    background-image: none;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: rgb(236, 236, 236);
 }
 
 main {
@@ -31,23 +32,26 @@ video {
 
 .legenda > p {
     font-family: 'Ubuntu', sans-serif;
-    color: #e72e1d;
+    /* color: #e72e1d; */
+    color: rgba(0, 0, 0, 0.750);
     margin-bottom: 50px;
     line-height: 1.6em;
-    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.822);
-    font-size: 1em;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.250);
+    font-size: 1.1em;
 }
 
 #legendaDias {
     font-family: 'Ubuntu', sans-serif;
     margin-top: 50px;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.753);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.250);
 }
 
 #legendaDias > p {
-    color: #e72e1d;
+    font-size: 1.1em;
+    /* color: #e72e1d; */
+    color: rgba(0, 0, 0, 0.750);
     padding: 5px;
-    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.822);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.250);
 }
 
 /* #legenda {
@@ -66,7 +70,7 @@ video {
     font-size: 1.5em;
 }
 
-#containerCelendario {
+#containerCalendario {
     font-family: 'Dancing Script', cursive;
     margin: auto;
     width: 310px;

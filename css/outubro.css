@@ -66,11 +66,11 @@ main {
     font-size: 1.5em;
 }
 
-#containerCelendario {
+#containerCalendario {
     font-family: 'Dancing Script', cursive;
     margin: auto;
     width: 310px;
-    background-color: rgb(255, 94, 121);
+    background-color: rgb(253, 116, 139);
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.295);
     color: rgba(0, 0, 0, 0.600);
@@ -112,7 +112,7 @@ table {
 }
 
 .diaMarcado {
-    background-color: rgb(252, 68, 99);
+    background-color: rgb(255, 92, 119);
 }
 
 thead>tr>td {

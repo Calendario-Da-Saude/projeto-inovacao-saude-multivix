@@ -1,26 +1,41 @@
 @media screen and (min-width: 768px) {
     body {
-        background-image: none;
-        background-color: gray;
+        background-image: linear-gradient(to right, #F3B2B0, #aae0d8);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #333333;
+        /* #F3B2B0 rosa 
+            #B2DBD5 azul */
     }
     main {
-        background-image: url(../imagens/background-janeiro.jpeg);
+        background-image: none;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        background-color: rgb(252, 238, 238);
         width: 50vw;
         margin: auto;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.275);
+        border-right: 1px solid rgba(128, 128, 128, 0.750);
+        border-left: 1px solid rgba(128, 128, 128, 0.750);
     }
     .legenda p {
         font-size: 1.1em;
         text-align: justify;
+        color: rgba(0, 0, 0, 0.650);
+        text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.275);
     }
-    .legendaDias p {
+    #legendaDias p {
         font-size: 1.1em;
+        color: rgba(0, 0, 0, 0.650);
+        text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.275);
     }
     video {
         max-width: 500px;
+    }
+    #containerCalendario {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.285);
     }
 }
 
