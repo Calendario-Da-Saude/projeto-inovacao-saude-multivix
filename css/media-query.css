@@ -23,10 +23,6 @@ video {
             #B2DBD5 azul */
     }
     main {
-        background-image: none;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         background-color: rgb(252, 238, 238);
         width: 50vw;
         margin: auto;
