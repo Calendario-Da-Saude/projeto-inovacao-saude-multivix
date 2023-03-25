@@ -62,7 +62,7 @@ main {
     font-family: 'Dancing Script', cursive;
     margin: auto;
     width: 310px;
-    background-color: rgb(255, 166, 0);
+    background-color: #F27E63;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.295);
     color: rgba(0, 0, 0, 0.600);
@@ -105,7 +105,7 @@ table {
     text-align: center;
 }
 .diaMarcado {
-    background-color: rgb(211, 137, 1);
+    background-color: #F25757;
 }
 
 thead>tr>td {

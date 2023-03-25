@@ -65,7 +65,7 @@ video {
     font-family: 'Dancing Script', cursive;
     margin: auto;
     width: 310px;
-    background-color: #fa594a;
+    background-color: #ff6051;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.295);
     color: rgba(0, 0, 0, 0.600);
@@ -105,7 +105,7 @@ table {
     text-align: center;
 }
 .diaMarcado {
-    background-color: #e72e1e ;
+    background-color: #fd3a33 ;
 }
 
 thead>tr>td {
