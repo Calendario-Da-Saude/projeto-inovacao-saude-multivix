@@ -5,13 +5,6 @@
     padding: 0;
 }
 
-body {
-    background-image: url(../imagens/background-janeiro.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 main {
     padding: 40px;
 }

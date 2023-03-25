@@ -9,13 +9,6 @@ body,html {
     height: 100vh;  
 }
 
-body {
-    background-image: url(../imagens/background-janeiro.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 video {
     display: block;
     margin: auto;

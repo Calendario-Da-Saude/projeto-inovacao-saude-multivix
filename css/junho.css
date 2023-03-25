@@ -9,11 +9,6 @@ body,html {
     height: 100vh;  
 }
 
-body {
-    background-image: linear-gradient(to right, #F3B2B0, #aae0d8);
-    /* background-color: rgb(236, 236, 236); */
-}
-
 main {
     padding: 40px;
 }
