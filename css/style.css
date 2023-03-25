@@ -38,47 +38,47 @@ main {
 }
 
 #fevereiro {
-    background-color: rgba(151, 29, 151, 0.822);
+    background-color: #a86dec;
 }
 
 #março {
-    background-color: rgb(173, 51, 173);
+    background-color: #BF8FB7;
 }
 
 #abril {
-    background-color: rgb(99, 146, 247);
+    background-color: #418EFA;
 }
 
 #maio {
-    background-color: rgb(247, 247, 102);
+    background-color: rgba(252, 250, 94);
 }
 
 #junho {
-    background-color: rgb(248, 90, 90);
+    background-color: #ff6051;
 }
 
 #julho {
-    background-color: rgb(247, 247, 102);
+    background-color: rgba(252, 250, 94);
 }
 
 #agosto {
-    background-color: rgb(173, 51, 173);
+    background-color: #BF8FB7;
 }
 
 #setembro {
-    background-color: rgb(247, 247, 102);
+    background-color: #23ff77;
 }
 
 #outubro {
-    background-color: rgb(248, 134, 168);
+    background-color: rgb(253, 116, 139);
 }
 
 #novembro {
-    background-color: rgb(99, 146, 247);
+    background-color: #418EFA;
 }
 
 #dezembro {
-    background-color: rgb(255, 166, 0);
+    background-color: #F27E63;
 }
 
 .meses {

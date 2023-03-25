@@ -62,7 +62,7 @@ video {
     font-family: 'Dancing Script', cursive;
     margin: auto;
     width: 310px;
-    background-color: rbg(252, 250, 94);
+    background-color: rgba(252, 250, 94);
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.295);
     color: rgba(0, 0, 0, 0.600);
