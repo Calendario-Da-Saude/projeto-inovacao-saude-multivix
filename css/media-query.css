@@ -10,6 +10,36 @@
     padding-bottom: 30px;
 }
 
+body {
+    background-image: linear-gradient(to right, #F3B2B0, #aae0d8);
+    /* background-color: rgb(236, 236, 236); */
+}
+
+.legenda > p {
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #e72e1d; */
+    color: rgba(0, 0, 0, 0.750);
+    /* color: rgb(235, 235, 235); */
+    margin-bottom: 50px;
+    line-height: 1.6em;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.250);
+    font-size: 1.1em;
+}
+
+#legendaDias {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.250);
+}
+
+#legendaDias > p {
+    font-size: 1.1em;
+    /* color: #e72e1d; */
+    color: rgba(0, 0, 0, 0.750);
+    padding: 5px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.250);
+}
+
 video {
     border-top: 2px solid rgb(90, 90, 90);
     padding-top: 30px;
