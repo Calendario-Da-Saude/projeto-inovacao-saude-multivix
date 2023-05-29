@@ -13,7 +13,7 @@ main {
 
 .containerVideo {
     margin: auto;
-    width: 500px;
+    max-width: 500px;
 }
 
 .containerVideo > h1 {
