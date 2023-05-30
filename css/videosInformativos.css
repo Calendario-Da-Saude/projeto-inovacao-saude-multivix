@@ -8,6 +8,7 @@
 main {
     background-image: linear-gradient(to right, rgb(243, 178, 176), #aae0d8);
     padding: 20px;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,14 +22,14 @@ main {
     align-items: center;
 }
 
-.containerTitulo > h1 {
+.containerTitulo > p {
     font-size: 1.5em;
-    margin: 40px 0px;
-   
+    margin: 20px 0px;
 }
 
-.containerTitulo > span {
-    
+
+span > img {
+    width: 25px;
 }
 
 video {
