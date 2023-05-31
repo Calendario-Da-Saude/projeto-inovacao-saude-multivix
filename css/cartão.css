@@ -12,12 +12,12 @@ header {
 main {
    padding: 20px;
    font-family: Arial, Helvetica, sans-serif;
-   background-color: beige;
 }
 
 #containerPerfis {
     display: flex;
-    overflow-x: scroll;
+    transition: .5s;
+    animation-timing-function: ease-in-out;
 }
 
 .avatar {
@@ -27,9 +27,14 @@ main {
     width: 134px;
     border-radius: 10px;
     cursor: pointer;
+    transition: .5s;
 }
 
 .avatar:hover {
+    background-color: rgb(14, 146, 255);
+}
+
+.selecionado {
     background-color: rgb(14, 146, 255);
 }
 
