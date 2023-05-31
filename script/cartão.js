@@ -10,11 +10,11 @@ for (let elemento of avatar) {
         for (let i = 0; i < avatar.length; i++) {
             let elemento = avatar[i];
             if (i === 2 && elemento.classList.contains("selecionado")) {
-                containerPerfis.style.transform = "translateX(-200px)"
+                containerPerfis.style.transform = "translateX(-150px)"
             } else if (i === 1 && elemento.classList.contains("selecionado")) {
-                containerPerfis.style.transform = "translateX(-100px)"
+                containerPerfis.style.transform = "translateX(-30px)"
             } else if (i === 3 && elemento.classList.contains("selecionado")) {
-                containerPerfis.style.transform = "translateX(-300px)"
+                containerPerfis.style.transform = "translateX(-310px)"
             } else if (i === 0 && elemento.classList.contains("selecionado")) {
                 containerPerfis.style.transform = "translateX(0)"
             }
