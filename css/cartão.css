@@ -12,6 +12,7 @@ header {
 
 header > h1 {
     text-align: center;
+    padding-top: 30px;
 }
 
 header > nav {
@@ -28,7 +29,7 @@ a > img {
 
 main {
    padding: 20px;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Inter', sans-serif, Arial, Helvetica, sans-serif;
    overflow: hidden;
 }
 
@@ -78,6 +79,62 @@ main {
 
 #adolescenteVacina, #adultoVacina, #gestanteVacina, #idosoVacina {
     display: none;
+}
+
+#criançaVacina > div, #adolescenteVacina > div, #adultoVacina > div, #gestanteVacina > div, #idosoVacina > div {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+#criançaVacina > div > h3, #adolescenteVacina > div > h3, #adultoVacina > div > h3, #gestanteVacina > div > h3, #idosoVacina > div > h3 {
+    padding-bottom: 8px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: rgb(187, 187, 187);
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+input[type="checkbox"]:checked {
+    content: url(../imagens/check.png);
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  
+
+#criançaVacina > h2, #adolescenteVacina > h2, #adultoVacina > h2, #gestanteVacina > h2, #idosoVacina > h2 {
+    padding-bottom: 15px;
 }
 
 

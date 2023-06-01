@@ -7,7 +7,7 @@ const gestanteVacina = document.getElementById("gestanteVacina");
 const idosoVacina = document.getElementById("idosoVacina");
 
 for (let elemento of avatar) {
-    elemento.addEventListener("click", function trocarPerfil() {
+    elemento.addEventListener("click", function () {
         for (let elemento of avatar) {
             elemento.classList.remove("selecionado");
         }
@@ -52,5 +52,3 @@ for (let elemento of avatar) {
         }
     })
 }
-
-trocarPerfil()
