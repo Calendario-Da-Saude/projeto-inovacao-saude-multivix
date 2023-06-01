@@ -5,6 +5,41 @@ const adolescenteVacina = document.getElementById("adolescenteVacina");
 const adultoVacina = document.getElementById("adultoVacina");
 const gestanteVacina = document.getElementById("gestanteVacina");
 const idosoVacina = document.getElementById("idosoVacina");
+const checkboxes = document.querySelectorAll("input[type='checkbox']");
+let checkedIds = {};
+let uncheckedIds = {};
+
+for (let checkbox of checkboxes) {
+  checkbox.addEventListener("click", function() {
+    const id = this.id;
+    if (this.checked) {
+      checkedIds[id] = true;
+      delete uncheckedIds[id];
+    } else {
+      uncheckedIds[id] = true;
+      delete checkedIds[id];
+    }
+
+    localStorage.setItem("caixaMarcada", JSON.stringify(checkedIds));
+    localStorage.setItem("caixaDesmarcada", JSON.stringify(uncheckedIds));
+  });
+}
+
+// Recuperar os dados do localStorage ao carregar a página
+window.addEventListener("load", function() {
+  const checkedStorage = localStorage.getItem("caixaMarcada");
+  const uncheckedStorage = localStorage.getItem("caixaDesmarcada");
+
+  checkedIds = checkedStorage ? JSON.parse(checkedStorage) : {};
+  uncheckedIds = uncheckedStorage ? JSON.parse(uncheckedStorage) : {};
+
+  for (let checkbox of checkboxes) {
+    const id = checkbox.id;
+    checkbox.checked = id in checkedIds;
+  }
+});
+
+
 
 for (let elemento of avatar) {
     elemento.addEventListener("click", function () {
