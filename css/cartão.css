@@ -6,7 +6,24 @@
 }
 
 header {
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
 
+header > h1 {
+    text-align: center;
+}
+
+header > nav {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+a > img {
+    padding: 10px;
+    width: 35px;
 }
 
 main {
@@ -18,6 +35,7 @@ main {
 #containerPerfis {
     display: flex;
     transition: .5s;
+    padding-bottom: 40px;
     animation-timing-function: ease-in-out;
 }
 
@@ -29,14 +47,17 @@ main {
     border-radius: 10px;
     cursor: pointer;
     transition: .5s;
+    color: rgb(70, 135, 255);
 }
 
 .avatar:hover {
     background-color: rgb(14, 146, 255);
+    color: white;
 }
 
 .selecionado {
     background-color: rgb(14, 146, 255);
+    color: white;
 }
 
 .avatar > img{
@@ -55,13 +76,10 @@ main {
     text-align: center;
 }
 
-#criançaVacina {
-    
-}
-
-#adolescenteVacina {
+#adolescenteVacina, #adultoVacina, #gestanteVacina, #idosoVacina {
     display: none;
 }
+
 
 footer {
 
