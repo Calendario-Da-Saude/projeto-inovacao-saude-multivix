@@ -55,6 +55,14 @@ main {
     text-align: center;
 }
 
+#criançaVacina {
+    
+}
+
+#adolescenteVacina {
+    display: none;
+}
+
 footer {
 
 }
