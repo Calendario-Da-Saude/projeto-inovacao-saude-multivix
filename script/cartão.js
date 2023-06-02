@@ -6,37 +6,8 @@ const adultoVacina = document.getElementById("adultoVacina");
 const gestanteVacina = document.getElementById("gestanteVacina");
 const idosoVacina = document.getElementById("idosoVacina");
 const checkboxes = document.querySelectorAll("input[type='checkbox']");
-const btnCadastro = document.getElementById("cadastro");
-const janelaCadastro = document.getElementById("janelaCadastro");
-const btnCadastrar = document.getElementById("btnCadastrar");
-// const spanCadestre = document.getElementById("cadastro");
 let checkedIds = {};
 let uncheckedIds = {};
-
-btnCadastro.addEventListener("click", function () {
-  janelaCadastro.style.display = "block";
-});
-
-btnCadastrar.addEventListener("click", function () {
-
-  janelaCadastro.style.display = "none";
-  // event.stopPropagation();
-});
-
-// document.addEventListener("click", function (event) {
-//   const target = event.target;
-
-//   if (target !== janelaCadastro && !janelaCadastro.contains(target)) {
-//     janelaCadastro.style.display = "none";
-//   }
-// });
-
-// spanCadestre.addEventListener("click", function() {
-
-//   let nome = window.prompt("Digite seu nome")
-
-//   localStorage.setItem("teste", nome);
-// })
 
 for (let checkbox of checkboxes) {
   checkbox.addEventListener("click", function () {

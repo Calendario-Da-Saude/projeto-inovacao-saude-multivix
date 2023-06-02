@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendário da saúde</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="script/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
@@ -22,11 +21,22 @@
 
 <body>
     <header>
-
+        
     </header>
     <main>
         <h1>Calendário da saúde 2023</h1>
         <p>( <i>inovação saúde</i> )</p>
+        <div id="janelaCadastro">
+            <h2>Cadastro</h2>
+            <div id="close">
+                <img src="imagens/close.png" alt="">
+            </div>
+            <div id="containerInput">
+                <input type="text" placeholder="Nome" id="nome" required>
+                <input type="email" placeholder="E-mail" id="email" required>
+            </div>
+            <button id="btnCadastrar">Cadastrar</button>
+          </div>
         <section id="containerMeses">
             <a href="janeiro.html">
                 <div class="meses" id="janeiro">Janeiro</div>
@@ -66,6 +76,9 @@
             </a>
         </section>
         <div id="containerSaiba">
+            <div id="cadastro">
+                <div class="saibaMais">Cadastro</div>
+           </div>
             <a href="https://www.gov.br/saude/pt-br/composicao/seidigi/demas/campanhas-de-vacinacao" target="_blank" rel="external">
                 <div class="saibaMais">Campanhas de vacinas</div>
             </a>
@@ -80,6 +93,7 @@
     <footer>
 
     </footer>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
