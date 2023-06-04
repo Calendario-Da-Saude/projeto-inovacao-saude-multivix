@@ -26,17 +26,29 @@
     <main>
         <h1>Calendário da saúde 2023</h1>
         <p>( <i>inovação saúde</i> )</p>
-        <div id="janelaCadastro">
+        <form id="janelaCadastro" action="http://localhost:5500/users" method="post" >
             <h2>Cadastro</h2>
-            <div id="close">
+            <div id="closeCadastro">
                 <img src="imagens/close.png" alt="">
             </div>
             <div id="containerInput">
-                <input type="text" placeholder="Nome" id="nome" required>
-                <input type="email" placeholder="E-mail" id="email" required>
+                <input type="text" placeholder="Nome" name="nome" id="inomeCadastro">
+                <input type="email" placeholder="E-mail" name="email" id="iemailCadastro">
+                <input type="text" placeholder="Senha" name="pass" id="ipassCadastro">
             </div>
             <button id="btnCadastrar">Cadastrar</button>
-          </div>
+        </form>
+        <form id="janelaLogin" action="http://localhost:5500/login" method="post" >
+            <h2>Login</h2>
+            <div id="closeLogin">
+                <img src="imagens/close.png" alt="">
+            </div>
+            <div id="containerInput">
+                <input type="email" placeholder="E-mail" name="email" id="iemailLogin">
+                <input type="text" placeholder="Senha" name="pass" id="ipassLogin">
+            </div>
+            <button id="btnLogin">Login</button>
+        </form>
         <section id="containerMeses">
             <a href="janeiro.html">
                 <div class="meses" id="janeiro">Janeiro</div>
@@ -78,6 +90,9 @@
         <div id="containerSaiba">
             <div id="cadastro">
                 <div class="saibaMais">Cadastro</div>
+           </div>
+            <div id="login">
+                <div class="saibaMais">Login</div>
            </div>
             <a href="https://www.gov.br/saude/pt-br/composicao/seidigi/demas/campanhas-de-vacinacao" target="_blank" rel="external">
                 <div class="saibaMais">Campanhas de vacinas</div>
