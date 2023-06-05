@@ -1,2 +1,6 @@
 .env
 node_modules
+sendEmail.js
+index.js
+src
+modules
