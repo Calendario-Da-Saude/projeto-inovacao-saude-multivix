@@ -4,9 +4,15 @@ const janelaLogin = document.getElementById("janelaLogin");
 const btnCadastrar = document.getElementById("btnCadastrar");
 const btnLogin = document.getElementById("login");
 const fecharCadastro = document.getElementById("closeCadastro");
-const video = document.getElementsByTagName("video")[0];
+const video = document.getElementsByTagName("video");
 
-video.pause();
+document.addEventListener("DOMContentLoaded", () => {
+ 
+    for (let elemento of video) {
+            elemento.paused()
+    }
+    
+})
 
 btnCadastro.addEventListener("click", function () {
   janelaCadastro.style.display = "block";
