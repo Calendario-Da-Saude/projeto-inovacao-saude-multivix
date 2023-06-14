@@ -7,11 +7,9 @@ const fecharCadastro = document.getElementById("closeCadastro");
 const video = document.getElementsByTagName("video");
 
 document.addEventListener("DOMContentLoaded", () => {
- 
     for (let elemento of video) {
-            elemento.paused()
+            elemento.pause()
     }
-    
 })
 
 btnCadastro.addEventListener("click", function () {

@@ -2,6 +2,12 @@ const containerVideo = document.getElementsByClassName("containerVideo");
 const containerTitulo = document.getElementsByClassName("containerTitulo");
 const videos = document.querySelectorAll("video");
 
+window.addEventListener("DOMContentLoaded", () => {
+  for (let elemento of videos) {
+    elemento.pause();
+  }
+})
+
 for (let elemento of containerTitulo) {
   elemento.addEventListener("click", function () {
     for (let elemento of containerTitulo) {
